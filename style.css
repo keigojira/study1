@@ -1,0 +1,10 @@
+@charset "utf-8";
+p{
+  color: red;
+  background-color: black;
+}
+
+h1{
+  color:blue;
+  background-color:yellow;
+}
