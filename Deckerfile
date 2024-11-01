@@ -1,0 +1,13 @@
+$ from ubuntu;22.10
+  && apt install -y apache2
+
+$CMD ["apachectl","-D","FOREGROUND"]
+  
+$ copy index.html /mybir/index.html
+$ copy index.html /mybir/
+$ copy scr/ /mybir/
+
+$ ENV MYSQL_USER=admin
+$ ENV MYSQL_PASSWORD=password
+
+$WORKDIR /app
